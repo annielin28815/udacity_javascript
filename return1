@@ -1,0 +1,23 @@
+// returns the sum of two numbers
+function add(a, b) {
+  return a + b;
+}
+
+
+
+// returns the value of a number divided by 2
+function divideByTwo(num) {
+  return num / 2;
+}
+
+
+
+
+// call the "add" function and store the returned value in the "sum" variable
+var sum = add(5, 7); 
+
+
+
+
+// call the "divideByTwo" function and store the returned value in the "average" variable
+var average = divideByTwo(sum);
