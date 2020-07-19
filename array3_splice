@@ -1,0 +1,12 @@
+
+
+
+var donuts = ["cookies", "cinnamon sugar", "creme de leche"];
+
+
+//-2是指定要添加/刪除項目的起始索引位(-1指定最後一個元素。)
+//0是指定要刪除的元素數,如果是0則不會有元素被刪除
+
+
+donuts.splice(-2, 0, "chocolate frosted", "glazed");
+console.log(donuts);
